@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         GitLab Issue Link Copier
 // @namespace    https://gitlab.*.com/
-// @version      1.4
+// @version      1.41
 // @description  Use a Unicode “🔗” icon sized like the H1; copy a fully-formatted HTML link with breadcrumb + title.
-// @match        https://gitlab.*.com/*/*/-/issues/*
+// @include      /^https:\/\/gitlab\.[^.]+\.com\/.*\/-\/issues\/.*/
 // @grant        none
 // ==/UserScript==
 
